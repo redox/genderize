@@ -11,7 +11,7 @@ fr:
   test1: "affamé[[e]]"
   test2: "amat[[eur,rice]]"
 
-I18.t :test1, :gender => :male # "affamé"
-I18.t :test1, :gender => :female # "affamée"
-I18.t :test2, :gender => :male # "amateur"
-I18.t :test2, :gender => :female # "amatrice
+I18n.t :test1, :gender => :male # "affamé"
+I18n.t :test1, :gender => :female # "affamée"
+I18n.t :test2, :gender => :male # "amateur"
+I18n.t :test2, :gender => :female # "amatrice
