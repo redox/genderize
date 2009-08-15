@@ -19,19 +19,18 @@ module I18n
         end
       end
     end
-    alias :t :translate
-    
-  end
+    alias :t :translate    
   
-  protected
-  def is_male?(gender)
-    case gender
-    when nil
-      nil
-    when :male, "male", 1, true
-      true
-    else
-      false
+    protected
+    def is_male?(gender)
+      case gender
+      when nil
+        nil
+      when :male, "male", 1, true
+        true
+      else
+        false
+      end
     end
   end
   
