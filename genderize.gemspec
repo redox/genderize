@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = "genderize"
+  s.name        = "i18n-genderize"
   s.version     = "0.0.1"
   s.licenses    = ['MIT']  
   s.platform    = "ruby"
