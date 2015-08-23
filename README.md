@@ -39,7 +39,7 @@ Usage
 
 Gemfile  
 
-gem 'genderize', github: "eamexicano/genderize"  
+gem 'i18n-genderize', github: "eamexicano/genderize", group: :development, require: false
 
 Terminal  
 
