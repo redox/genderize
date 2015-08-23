@@ -26,13 +26,20 @@ I18n.t :test1, :gender => :female # "affamée"
 I18n.t :test2, :gender => :male # "amateur"   
 I18n.t :test2, :gender => :female # "amatrice   
 
+Compatible with new hash syntax
+
+I18n.t :test1, gender: :male # "affamé"   
+I18n.t :test1, gender: :female # "affamée"   
+I18n.t :test2, gender: :male # "amateur"   
+I18n.t :test2, gender: :female # "amatrice   
+
 
 Usage
 =====    
 
 Gemfile  
 
-gem 'genderize' github: "https://github.com/eamexicano/genderize"  
+gem 'genderize', github: "https://github.com/eamexicano/genderize"  
 
 Terminal  
 
