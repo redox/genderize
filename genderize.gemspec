@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.platform    = "ruby"
   s.authors     = ["eamexicano"]
   s.email       = ["eamexicano@eamexicano.com"]
-  s.homepage    = "https://github.com/eamexicano/genderize"
+  s.homepage    = "http://rubygems.org/gems/genderize"
   s.summary     = %q{Updated version of redox/genderize now as an initializer in rails 4.}
   s.description = %q{This generator will create i18n.rb in config/initializers.}
   s.files = Dir.glob("{lib}/**/*")
