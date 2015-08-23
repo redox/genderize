@@ -39,7 +39,7 @@ Usage
 
 Gemfile  
 
-gem 'genderize', github: "https://github.com/eamexicano/genderize"  
+gem 'genderize', github: "eamexicano/genderize"  
 
 Terminal  
 
