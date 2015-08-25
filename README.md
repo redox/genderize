@@ -7,7 +7,7 @@ From the original README:
 
 "Genderize modifies existing I18n.translate method so it can provide gender-based distinctions."
 
-This generator updates Genderize to make it an initializer for Rails 4 apps - used in 4.1 -.   
+This generator updates Genderize to use it an initializer for Rails 4 apps - used in 4.1 -.   
 gender option is added directly in I18n.
 
 
